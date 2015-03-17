@@ -1,10 +1,10 @@
 Hack the Login and Find the username.
 ====================================
- Agent 007 has infiltrated the KGB, he has installed a backdoor into the KGB database. He has written a module which leaks an encrypted passowrd on any authentication attempt. You are also provided intelligence on their encryption algorithm.
+ Agent 007 has infiltrated the KGB, he has installed a backdoor into the KGB database. He has written a module which leaks an encrypted password on any authentication attempt. You are also provided intelligence on their encryption algorithm.
 
 Problem Statement
 ------------------
-There is an authentication simulation module which leaks an encrypted pasword string in `hackuser.js` module for every authentication attempt.
+There is an authentication simulation module which leaks an encrypted password string in `hackuser.js` module for every authentication attempt.
 The username is the lexical ordering of the decrypted password.
 Return the username from the leaked encrypted password by completing `hackAlgorithmToFindUsername` method
 
