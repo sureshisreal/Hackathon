@@ -1,22 +1,22 @@
 Hack the Login and Find the username.
 ====================================
+ Agent 007 has infiltrated the KGB, he has installed a backdoor into the KGB database. He has written a module which leaks an encrypted passowrd on any authentication attempt. You are also provided intelligence on their encryption algorithm.
 
-We got a list of encrypted password string and we need an algorithm which can find the username from the encrypted password.
+Problem Statement
+------------------
+There is an authentication simulation module which leaks an encrypted pasword string in `hackuser.js` module for every authentication attempt.
+The username is the lexical ordering of the decrypted password.
+Return the username from the leaked encrypted password by completing `hackAlgorithmToFindUsername` method
 
-you have been given a server authentication simulator code, which leaks the encrypted password for every authentication.
 
-Go through the code to find out the logic of the password encryption technique.
-
-Also we found that for any encrypted password,
-the respective username is using the same decrypted password string in a lexicographic order.
-
-Find the username by writing a decryption algorithm that can process the encrypted password leak to give the username.
-
-for example if the password is "youcrackedit" then username is "accdeikortuy".
-
-Complete the function `hackAlgorithmToFindUsername` that accepts encryptedPassword as a parameter
-and returns the username from the encryptedPassword.
+Example
+-------
+The username for the decrypted password string "youcrackedit" is "accdeikortuy" 
 
 How to run.
 -----------
 1. install Nodejs (version above 0.10) and using terminal run `node src/hackuser.js`
+
+```
+godspeed and long live the queen
+```
