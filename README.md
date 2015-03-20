@@ -17,6 +17,11 @@ How to run.
 -----------
 1. install Nodejs (version above 0.10) and using terminal run `node src/hackuser.js`
 
+Submission Procedure
+---------------------
+Fork the project and submit a pull request after completing the challenge.
+[How to create a Pull request](https://help.github.com/articles/using-pull-requests/)
+
 ```
 godspeed and long live the queen
 ```
