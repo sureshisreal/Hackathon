@@ -27,13 +27,10 @@ function hackAlgorithmToFindUsername(encrypterPass) {
             if (count > 0) {
                 filter = count/2;
                    for (var j=0 ;j<filter ; j++)    {
-                       process.stdout.write(current);   
-                                                    }
-                           }
-                                current = a[i];
-                                count = 1;
+                       process.stdout.write(current);    }
+                           }  current = a[i];
+                               count = 1;
                          } else {
-                                 count++;
-                                 }
+                                 count++; }
                                         }
 }
