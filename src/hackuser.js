@@ -20,8 +20,7 @@ function hackAlgorithmToFindUsername(encrypterPass) {
   throw new Error("Missing hack to find username");
    var a = data.split(""), n = a.length;   a.sort()  ;      //        console.log(a); sorted
    var current = null;
-    var count = 0;
-    var filter ;
+    var count = 0, filter;
     for (var i = 0; i <= a.length; i++) {
         if (a[i] != current) {
             if (count > 0) {
